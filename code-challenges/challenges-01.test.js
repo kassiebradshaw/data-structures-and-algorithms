@@ -8,16 +8,22 @@ Write a function named `addOne` that takes an array of numbers, and returns a ne
 Use `forEach` to loop over the input array and work with each value.  Push the new value into a local array. Return the local array;
 ------------------------------------------------------------------------------------------------ */
 
+
 function addOne(arr) {
   const answer = [];
   // forEach loop over input
-  arr.forEach(function (value, i) {
+  arr.forEach(function (value, i) { // () => {}
     answer.push(value + 1);
   });
   // push new value into array
   // return
   return answer;
 }
+
+// code review notes
+// every array has a forEach callback function doing the function (taking the value and i) 
+// to convert it to an arrow function:
+// arr.forEach 
 
 /* ------------------------------------------------------------------------------------------------
 CHALLENGE 2
@@ -53,6 +59,11 @@ const allUpperCase = (arr) => {
   });
   return upperCaseArray;
 };
+
+//const allUpperCase = (arr) => {
+//  const upperCaseArray = [];
+//  arr.forEach( str => ) 
+//}
 
 /* ------------------------------------------------------------------------------------------------
 CHALLENGE 4
@@ -94,13 +105,14 @@ Within the addNumbers function, invoke the callback function as many times as ne
 Return the modified array.
 ------------------------------------------------------------------------------------------------ */
 
+// implicit return: const addValues = (arr, value) => arr.push(value);
 const addValues = (arr, value) => {
-  // Solution code here...
   arr.push(value);
 };
 
+// implicit return: const addValues = (arr, value) => arr.push(value);
+
 const addNumbers = (num, arr, times, callback) => {
-  // Solution code here...
   for (let i = 0; i < times; i++) {
     callback(arr, num);
   }
