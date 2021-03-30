@@ -17,6 +17,7 @@ For example, typeNum([1, 'bob' ,3]) returns [1,3].
 ------------------------------------------------------------------------------------------------ */
 
 const typeNum = (arr) => arr.filter(Number);
+
 /* ------------------------------------------------------------------------------------------------
 CHALLENGE 3
 
@@ -45,7 +46,7 @@ Write a function named notInFirstArray that, given two arrays as input, uses fil
 For example, notInFirstArray([1,2,3], [1,2,3,4]) returns [4].
 ------------------------------------------------------------------------------------------------ */
 
-const notInFirstArray = (forbiddenValues, arr) => arr.filter(element => element !== forbiddenValues);
+const notInFirstArray = (forbiddenValues, arr) => arr.filter(element => !forbiddenValues.includes(element));
 
 /* ------------------------------------------------------------------------------------------------
 CHALLENGE 6 - Stretch Goal
