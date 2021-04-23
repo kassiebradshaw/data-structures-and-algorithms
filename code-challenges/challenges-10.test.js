@@ -115,6 +115,7 @@ const salesData = (hours, data) => {
   }));
   return hourlySales;
 
+  // THIS CODE BELOW PASSES THE TEST, BUT NOT WITH A FOREACH
   // let array = [];
   // for (let i in hours) {
   //   let salesObject = {};
