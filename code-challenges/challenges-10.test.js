@@ -108,12 +108,9 @@ Write a function named salesData that uses forEach to iterate over the hourlySal
 ------------------------------------------------------------------------------------------------ */
 
 const salesData = (hours, data) => {
-  let hourlySales = [];
-  hourlySales.push(hours.forEach( hour => {
-    this.sales = `${data} cookies`;
-    this.time = `${hour}`;
-  }));
-  return hourlySales;
+  let ans = [];
+  hours.forEach( (hour, index) => ans.push({sales: `${data[index]} cookies`, time: hour}));
+  return ans;
 
   // THIS CODE BELOW PASSES THE TEST, BUT NOT WITH A FOREACH
   // let array = [];
@@ -149,6 +146,7 @@ const errands = [
 ];
 
 const howManyTreats = (arr) => {
+  return arr[2].items[1].quantity;
 };
 
 /* ------------------------------------------------------------------------------------------------
