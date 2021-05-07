@@ -51,7 +51,9 @@ For example, (123) 456-7890 returns 1234567890
 ------------------------------------------------------------------------------------------------ */
 
 const standardizePhoneNumbers = (arr) => {
-  // Solution code here...
+  let regex = /\s|-|\(|\)/g;
+  let newArr = arr.map(string => string.replace(regex, ''));
+  return newArr;
 };
 
 /* ------------------------------------------------------------------------------------------------
@@ -62,9 +64,7 @@ Write a function named onlyOddChars that takes in a string and returns only the 
 For example, 'abcdefg' returns 'bdf'
 ------------------------------------------------------------------------------------------------ */
 
-const onlyOddChars = (str) => {
-  // Solution code here...
-};
+const onlyOddChars = (str) => str.split('').filter((a,b) => b % 2 === 1).join('');
 
 /* ------------------------------------------------------------------------------------------------
 CHALLENGE 6 
