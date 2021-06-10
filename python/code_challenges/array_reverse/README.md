@@ -30,7 +30,7 @@ Write a function called reverseArray which takes an array as an argument. Withou
 
 ## Whiteboard Visual
 
-![Array Reverse whiteboard challenge](python/code_challenges/array_reverse/array_reverse.jpg)
+![Array Reverse whiteboard challenge](array_reverse.jpg)
 
 ---
 
