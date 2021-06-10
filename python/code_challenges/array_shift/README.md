@@ -2,6 +2,8 @@
 
 ## *Author: Kassie Bradshaw*
 
+[Link to PR for this code challenge](https://github.com/kassiebradshaw/data-structures-and-algorithms/pull/24)
+
 ---
 
 ## Problem Domain
