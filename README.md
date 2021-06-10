@@ -15,3 +15,4 @@ Each day, you'll add one new file to this folder to do your work for the day's a
 - Please follow the instructions specific to your 401 language, which can be found in the directory below, matching your course.
 
 - [Code Challenge 1 - Reverse an Array](python/code_challenges/array_reverse/README.md)
+- [Code Challenge 2 - Shift an Array](python/code_challenges/array_shift/README.md)
