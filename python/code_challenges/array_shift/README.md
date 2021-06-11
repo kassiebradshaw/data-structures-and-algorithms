@@ -27,17 +27,19 @@ Write a function called `insertShiftArray` which takes in an array and a value t
 
 | Time | Space |
 | :----------- | :----------- |
-| O(n) | O(n) |
+| O(n) | O(1) |
 
 ---
 
 ### Whiteboard Visual
 
-***[Your Whiteboard Image]***
-![Image 1](https://via.placeholder.com/750x500)
+![Image 1](array_shift.jpg)
 
 ---
 
 ### Change Log
 
----
+06-10-21:
+
+* Initial attempt at Code Challenge
+* Input Whiteboard image in README

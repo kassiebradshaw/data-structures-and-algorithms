@@ -1,18 +1,23 @@
 # Data Structures and Algorithms
 
-See [setup instructions](https://codefellows.github.io/setup-guide/code-301/3-code-challenges), in the Code 301 Setup Guide.
+## 301 Code Challenges
 
-## Repository Quick Tour and Usage
+- [Challenge 01 - forEach](code-challenges/challenges-01.test.js)
+- [Challenge 02 - Map](code-challenges/challenges-02.test.js)
+- [Challenge 03 - Filter](code-challenges/challenges-03.test.js)
+- [Challenge 04 - Sort](code-challenges/challenges-04.test.js)
+- [Challenge 05 - Reduce](code-challenges/challenges-05.test.js)
+- [Challenge 06 - Value vs. Reference](code-challenges/challenges-06.test.js)
+- [Challenge 07 - Array & String Methods](code-challenges/challenges-07.test.js)
+- [Challenge 08 - Regular Expressions, Pt 1](code-challenges/challenges-08.test.js)
+- [Challenge 09 - Object.keys/values/entries](code-challenges/challenges-09.test.js)
+- [Challenge 10 - Two-dimensional arrays](code-challenges/challenges-10.test.js)
+- [Challenge 11 - Chaining Methods](code-challenges/challenges-11.test.js)
+- [Challenge 12 - Regular Expressions, Pt 2](code-challenges/challenges-12.test.js)
+- [Challenge 13 - Includes, Every, Substring, charAt](code-challenges/challenges-13.test.js)
+- [Challenge 14 - Review](code-challenges/challenges-14.test.js)
 
-### 301 Code Challenges
-
-Under the `data-structures-and-algorithms` repository, at the top level is a folder called `code-challenges`
-
-Each day, you'll add one new file to this folder to do your work for the day's assigned code challenge
-
-### 401 Data Structures, Code Challenges
-
-- Please follow the instructions specific to your 401 language, which can be found in the directory below, matching your course.
+## 401 Data Structures, Code Challenges
 
 - [Code Challenge 1 - Reverse an Array](python/code_challenges/array_reverse/README.md)
 - [Code Challenge 2 - Shift an Array](python/code_challenges/array_shift/README.md)
