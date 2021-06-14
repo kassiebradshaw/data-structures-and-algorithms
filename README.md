@@ -19,5 +19,6 @@
 
 ## 401 Data Structures, Code Challenges
 
-- [Code Challenge 1 - Reverse an Array](python/code_challenges/array_reverse/README.md)
-- [Code Challenge 2 - Shift an Array](python/code_challenges/array_shift/README.md)
+- [Challenge 1 - Reverse an Array](python/code_challenges/array_reverse/README.md)
+- [Challenge 2 - Shift an Array](python/code_challenges/array_shift/README.md)
+- [Challenge 3 - Binary Search of Sorted Array](python/code_challenges/array_binary_search/README.md)
