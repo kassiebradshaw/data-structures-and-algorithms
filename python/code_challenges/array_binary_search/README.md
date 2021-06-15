@@ -2,26 +2,35 @@
 
 ## *Author: Kassie Bradshaw*
 
-[Link to PR for this code challenge]()
+[Link to PR for this code challenge](https://github.com/kassiebradshaw/data-structures-and-algorithms/pull/25)
+
+### Credit & Collaboration:
+
+* Collaborated with Prabin Singh
+* Used [this link](https://www.geeksforgeeks.org/python-program-for-binary-search/) to understand and write code
 
 ---
 
-## Problem Domain
+## Problem Domain:
 
 **Binary search in a sorted 1D array** -- Whiteboard ONLY
 
-Write a function called `BinarySearch` which takes in 2 parameters: a sorted array and the search key. Without utilizing any of the built-in methods available to your language, return the index of the array's element that is equal to the value of the search key, or -1 if the element is not in the array.
+[x] Write a function called `BinarySearch` which takes in 2 parameters: a sorted array and the search key. Without utilizing any of the built-in methods available to your language, return the index of the array's element that is equal to the value of the search key, or -1 if the element is not in the array.
 
-* Note: The search algorithm used in your function should be a binary search.
+* [x] Note: The search algorithm used in your function should be a binary search.
   * Check the Resources section for details
 
-### Resources
+### Stretch Goal:
+
+* [ ] What would you need to change if the array contained objects (sorted on a given property), and you were searching for certain property value? Write out the pseudocode.
+
+### Resources:
 
 * [Wikipedia: Binary Search Algorithm](https://en.wikipedia.org/wiki/Binary_search_algorithm)
 
 ---
 
-### Inputs and Expected Outputs
+### Inputs and Expected Outputs:
 
 | Input | Expected Output |
 | :----------- | :----------- |
@@ -32,22 +41,21 @@ Write a function called `BinarySearch` which takes in 2 parameters: a sorted arr
 
 ---
 
-### Big O
+### Big O:
 
 | Time | Space |
 | :----------- | :----------- |
-| '' | '' |
-<!-- | O(n) | O(1) | -->
+| O(log n) | O(1) |
 
 ---
 
-### Whiteboard Visual
+### Whiteboard Visual:
 
-![Image 1](../../placeholder.jpg)
+![array_binary_search](array_binary_search.jpg)
 
 ---
 
-### Change Log
+### Change Log:
 
 06-14-21:
 
