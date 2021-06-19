@@ -22,3 +22,5 @@
 - [Challenge 1 - Reverse an Array](python/code_challenges/array_reverse/README.md)
 - [Challenge 2 - Shift an Array](python/code_challenges/array_shift/README.md)
 - [Challenge 3 - Binary Search of Sorted Array](python/code_challenges/array_binary_search/README.md)
+- Challenge 4 - Peer Practice Whiteboard Challenge
+- [Challenge 5 - Linked List](python/code_challenges/linked_list/README.md)
