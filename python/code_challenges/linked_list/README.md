@@ -24,3 +24,8 @@ Author: *Kassie Bradshaw*
 ## Change Log
 
 ---
+
+## Collaboration & Credit
+
+* [Help with printing linked list](https://www.google.com/search?q=how+can+you+print+a+linked+list%3F&oq=how+can+you+print+a+linked+list%3F&aqs=chrome..69i57j0i22i30l4.3070j0j7&sourceid=chrome&ie=UTF-8#kpvalbx=_FxzQYMvOG9Lh-gS77IPQBQ28)
+* [Help with creating Node class methods](https://www.youtube.com/watch?v=Bd1L64clh34)
