@@ -4,7 +4,7 @@ Author: *Kassie Bradshaw*
 
 [Link to PR for challenge 05](https://github.com/kassiebradshaw/data-structures-and-algorithms/pull/26)
 
-[Link to PR for challenge 06](tbd)
+[Link to PR for challenge 06](https://github.com/kassiebradshaw/data-structures-and-algorithms/pull/27)
 
 ---
 
@@ -57,6 +57,11 @@ Method: **`.insertAfter(value, newVal)`**
 
 ---
 
+Whiteboard Visual for Code Challenge 06
+![Whiteboard for Code Challenge 6](LL_insertions.jpg)
+
+---
+
 ## Testing:
 
 Code Challenge 5 Tests:
@@ -94,3 +99,5 @@ Code Challenge 6 Tests:
 
 * [Help with printing linked list](https://www.google.com/search?q=how+can+you+print+a+linked+list%3F&oq=how+can+you+print+a+linked+list%3F&aqs=chrome..69i57j0i22i30l4.3070j0j7&sourceid=chrome&ie=UTF-8#kpvalbx=_FxzQYMvOG9Lh-gS77IPQBQ28)
 * [Help with creating Node class methods](https://www.youtube.com/watch?v=Bd1L64clh34)
+
+* Help from Michael Ryan with `__str__` method
