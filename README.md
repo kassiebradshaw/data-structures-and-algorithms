@@ -24,3 +24,4 @@
 - [Challenge 3 - Binary Search of Sorted Array](python/code_challenges/array_binary_search/README.md)
 - Challenge 4 - Peer Practice Whiteboard Challenge
 - [Challenge 5 - Linked List](python/code_challenges/linked_list/README.md)
+- [Challenge 6 - Linked List insertions](python/code_challenges/linked_list/README.md)
