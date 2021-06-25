@@ -6,6 +6,8 @@ Author: *Kassie Bradshaw*
 
 [Link to PR for challenge 06](https://github.com/kassiebradshaw/data-structures-and-algorithms/pull/27)
 
+[Link to PR for challenge 07]()
+
 ---
 
 ## Code Challenge 05: Singly Linked List
@@ -57,8 +59,30 @@ Method: **`.insertAfter(value, newVal)`**
 
 ---
 
+## Code Challenge 07: Extending an implementation
+
+Write the following method for the Linked List class:
+
+* kth from end
+  * argument: a number, `k`, as a parameterou have access to the Node class and all the properties on the Linked List class as well as the methods created in previous challenges.
+
+## Examples:
+
+Method: **`ll.kthFromEnd(k)`**
+
+| Input -> `ll` | Arg -> `k` | Output |
+|---|---|---|
+| `head -> [1] -> [3] -> [8] -> [2] -> X` | `0` | `2` |
+| `head -> [1] -> [3] -> [8] -> [2] -> X` | `2` | `3` |
+| `head -> [1] -> [3] -> [8] -> [2] -> X` | `6` | `Exception` |
+
+---
+
 Whiteboard Visual for Code Challenge 06
 ![Whiteboard for Code Challenge 6](LL_insertions.jpg)
+
+Whiteboard Visual for Code Challenge 07
+![Whiteboard for Code Challenge 7]()
 
 ---
 
@@ -83,6 +107,14 @@ Code Challenge 6 Tests:
 5. [ ] Can successfully insert after a node in the middle of the linked list
 6. [ ] Can successfully insert a node after the last node of the linked list
 
+Code Challenge 7 Tests:
+
+1. [x] Where k is greater than the length of the linked list
+2. [x] Where k and the length of the list are the same
+3. [x] Where k is not a positive integer
+4. [x] Where the linked list is of a size 1
+5. [x] “Happy Path” where k is not at the end, but somewhere in the middle of the linked list
+
 ---
 
 ## Change Log
@@ -93,6 +125,8 @@ Code Challenge 6 Tests:
 
 06-21-2021: Started code challenge 6
 
+06-24-2021: Started code challenge 7.
+
 ---
 
 ## Collaboration & Credit
@@ -101,3 +135,5 @@ Code Challenge 6 Tests:
 * [Help with creating Node class methods](https://www.youtube.com/watch?v=Bd1L64clh34)
 
 * Help from Michael Ryan with `__str__` method
+
+* Collaborated with Daniel Dills, Michael Ryan, and Matt Santorsola for code challenge 7
