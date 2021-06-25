@@ -33,18 +33,17 @@ class LinkedList:
         Prints data of the Linked List
         """
 
-        list_values = []
-        if self.head is None:
-            return "There is no node"
+        string = ""
 
         current = self.head
-        # print(current.__str__())
 
         while current is not None:
-            list_values.append(current.value)
+            string += f"{ {current.value} } -> "
             current = current.next
 
-        print("this is list", list_values)
+        string += f" None "
+
+        return string
 
 
     def insert(self, value):
@@ -68,6 +67,46 @@ class LinkedList:
                 return True
             current = current.next
         return False
+
+    def append(self, value):
+        current = self.head
+        newNode = Node(value)
+
+        if current is None:
+            self.head = newNode
+
+        while current is not None:
+            if current.next == None:
+                current.next = newNode
+            else:
+                current = current.next
+
+
+    def insertAfter(self, value, newValue):
+        current = self.head
+        newNode = Node(newValue)
+
+        if current is None:
+            self.head = newNode
+        while current is not None:
+            if current == value:
+                current.next == newNode
+            else:
+                current = current.next
+
+    def insertBefore(self, value, newValue):
+        current = self.head
+        newNode = Node(newValue)
+
+        if current is None:
+            self.head = newNode
+        while current is not None:
+            if current.next == value:
+                current = newNode
+            else:
+                current = current.next
+
+
 
 
 
