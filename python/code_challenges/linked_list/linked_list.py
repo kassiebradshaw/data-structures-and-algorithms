@@ -106,37 +106,71 @@ class LinkedList:
             else:
                 current = current.next
 
+    # https://www.geeksforgeeks.org/nth-node-from-the-end-of-a-linked-list/
+    def kthFromEnd(self, k):
+        temp = self.head
+        length = 0
 
+        while temp is not None:
+            temp = temp.next
+            length += 1
+
+        #print count
+        if k > length: # if entered location is greater than length of LL
+            return 'Location is greater than the length of LL'
+        if k == length:
+            return 'Same length'
+        if k < 0:
+            return 'Negative numbers not allowed'
+
+
+        temp = self.head
+        for i in range(1, length - k):
+            temp = temp.next
+
+        return temp.value
+
+
+# --------------Garfield helped
+
+    # def __str__(self):
+    #     string_value = ""
+    #     current = self.head
+    #     while current is not None:
+    #         string_value += f"{ {current.value} } ->"
+    #         current = current.next
+    #     string_value += f" None "
+    #     return string_value
 
 
 
 # ------------------------------------------------------------ #
 
-if __name__ == "__main__":
+# if __name__ == "__main__":
 
-#     ll = LinkedList()
-#     node1 = Node('apples', None)
-#     node2 = Node('oranges', None)
-#     node3 = Node('pears', None)
+# #     ll = LinkedList()
+# #     node1 = Node('apples', None)
+# #     node2 = Node('oranges', None)
+# #     node3 = Node('pears', None)
 
-#     ll.head == node1
-#     node1.next == node2
-#     node2.next == node3
+# #     ll.head == node1
+# #     node1.next == node2
+# #     node2.next == node3
 
-#     ll.insert(node1)
+# #     ll.insert(node1)
+
+# #     print(ll.__str__())
+# #     print(ll.head.value)
+
+# # # llhead = 'apples' -> 'oranges' -> 'pear' -> None
+
+#     node1 = Node('apples')
+#     node2 = Node('bananas', node1)
+#     node3 = Node('cherries', node2)
+#     # print(node1.__str__())
+
+#     ll = LinkedList(node1)
+#     ll.insert(node2)
+#     ll.insert(node3)
 
 #     print(ll.__str__())
-#     print(ll.head.value)
-
-# # llhead = 'apples' -> 'oranges' -> 'pear' -> None
-
-    node1 = Node('apples')
-    node2 = Node('bananas', node1)
-    node3 = Node('cherries', node2)
-    # print(node1.__str__())
-
-    ll = LinkedList(node1)
-    ll.insert(node2)
-    ll.insert(node3)
-
-    print(ll.__str__())
