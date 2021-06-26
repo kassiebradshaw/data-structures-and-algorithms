@@ -6,7 +6,7 @@ Author: *Kassie Bradshaw*
 
 [Link to PR for challenge 06](https://github.com/kassiebradshaw/data-structures-and-algorithms/pull/27)
 
-[Link to PR for challenge 07]()
+[Link to PR for challenge 07](https://github.com/kassiebradshaw/data-structures-and-algorithms/pull/29)
 
 ---
 
@@ -66,7 +66,7 @@ Write the following method for the Linked List class:
 * kth from end
   * argument: a number, `k`, as a parameterou have access to the Node class and all the properties on the Linked List class as well as the methods created in previous challenges.
 
-## Examples:
+**Examples**:
 
 Method: **`ll.kthFromEnd(k)`**
 
@@ -82,11 +82,11 @@ Whiteboard Visual for Code Challenge 06
 ![Whiteboard for Code Challenge 6](LL_insertions.jpg)
 
 Whiteboard Visual for Code Challenge 07
-![Whiteboard for Code Challenge 7]()
+![Whiteboard for Code Challenge 7](kth_from_end.jpg)
 
 ---
 
-## Testing:
+### Testing
 
 Code Challenge 5 Tests:
 
@@ -119,13 +119,15 @@ Code Challenge 7 Tests:
 
 ## Change Log
 
-06-19-2021: Started code challenge 5
+**06-19-2021**: Started code challenge 5
 
-06-20-2021: Turned in code challenge 5, all working except Linked List `__str__` method
+**06-20-2021**: Turned in code challenge 5, all working except Linked List `__str__` method
 
-06-21-2021: Started code challenge 6
+**06-21-2021**: Started code challenge 6
 
-06-24-2021: Started code challenge 7.
+**06-24-2021**: Started code challenge 7
+
+**06-26-2021**: Added whiteboard image and PR link for Code Challenge 7, resubmitted assignment
 
 ---
 
