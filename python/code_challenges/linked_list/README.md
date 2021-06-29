@@ -8,6 +8,8 @@ Author: *Kassie Bradshaw*
 
 [Link to PR for challenge 07](https://github.com/kassiebradshaw/data-structures-and-algorithms/pull/29)
 
+[Link to PR for challenge 08](tbd)
+
 ---
 
 ## Code Challenge 05: Singly Linked List
