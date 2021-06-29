@@ -131,6 +131,24 @@ class LinkedList:
         return temp.value
 
 
+list1 = LinkedList('1', Node('3', Node('5')))
+list2 = LinkedList('2', Node('4', Node('6')))
+
+def zipLists(list1, list2):
+    list1_current = list1.head # 1
+    list2_current = list2.head # 2
+
+    while list1_current and list2_current != None: # while 1 and 2 are not none
+        list1_next = list1_current.next # 1's next = 3
+        list2_next = list2_current.next # 2's next = 4
+
+        list1_current.next = list2_current # 1's next = 2
+        list2_current.next = list1_next # 2's next = 3
+
+        list1_current = list1_current.next
+        list2_current = list2_current.next
+
+
 # --------------Garfield helped
 
     # def __str__(self):
