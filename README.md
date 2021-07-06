@@ -25,3 +25,5 @@
 - Challenge 4 - Peer Practice Whiteboard Challenge
 - [Challenge 5 - Linked List](python/code_challenges/linked_list/README.md)
 - [Challenge 6 - Linked List insertions](python/code_challenges/linked_list/README.md)
+- [Challenge 7 - K-th Value From The End](python/code_challenges/linked_list/README.md)
+- [Challenge 8 - Zip Two Linked Lists](python/code_challenges/linked_list/README.md)

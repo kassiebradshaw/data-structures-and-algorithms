@@ -8,6 +8,8 @@ Author: *Kassie Bradshaw*
 
 [Link to PR for challenge 07](https://github.com/kassiebradshaw/data-structures-and-algorithms/pull/29)
 
+[Link to PR for challenge 08](https://github.com/kassiebradshaw/data-structures-and-algorithms/pull/30)
+
 ---
 
 ## Code Challenge 05: Singly Linked List
@@ -78,11 +80,37 @@ Method: **`ll.kthFromEnd(k)`**
 
 ---
 
+## Code Challenge 08: Zip Two Linked Lists
+
+* [x] Write a function called zip lists
+* [x] Arguments: 2 linked lists
+* [ ] Return: Linked List, zipped (as noted below)
+* [ ] Zip the two linked lists together into one so that the nodes alternate between the two lists and return a reference to the head of the zipped list.
+* [ ] Try and keep additional space down to O(1)
+* [ ] You have access to the Node class and all the properties on the Linked List class as well as the methods created in previous challenges
+
+**Stretch Goals**:
+Once you've achieved a working solution, implement another function that merges two sorted linked lists into a single sorted linked list.
+
+**Examples**:
+
+`zipLists(list1, list2)`
+| ARG: `list1` | ARG: `list2` | Output: |
+|---|---|---|
+| `head -> [1] -> [3] -> [2] -> X` | `head -> [5] -> [9] -> [4] -> X` | `head -> [1] -> [5] -> [3] -> [9] -> [2] -> [4] -> X` |
+| `head -> [1] -> [3] -> X` | `head -> [5] -> [9] -> [4] -> X` | `head -> [1] -> [5] -> [3] -> [9] -> [4] -> X` |
+| `head -> [1] -> [3] -> [2] -> X` | `head -> [5] -> [9] -> X` | `head -> [1] -> [5] -> [3] -> [9] -> [2] -> X` |
+
+---
+
 Whiteboard Visual for Code Challenge 06
 ![Whiteboard for Code Challenge 6](LL_insertions.jpg)
 
 Whiteboard Visual for Code Challenge 07
 ![Whiteboard for Code Challenge 7](kth_from_end.jpg)
+
+Whiteboard Visual for Code Challenge 08
+![Whiteboard for Code Challenge 8](ll_zip.jpg)
 
 ---
 
