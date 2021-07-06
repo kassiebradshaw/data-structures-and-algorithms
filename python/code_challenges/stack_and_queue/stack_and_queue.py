@@ -38,12 +38,34 @@ class Stack:
     If stack is empty, raises an exception.
     """
 
-    try:
-      popped_node = self.top
-      if popped_node.value == None:
-        raise Exception('Stack is empty')
-    except:
-      print('Stack is empty')
+    #HAVING TROUBLE WITH RAISING THE EXCEPTION WHEN STACK IS EMPTY
+
+    popped_node = self.top
+    if popped_node.value == None:
+      raise Exception('Stack is empty')
+    else:
+      self.top = popped_node.next
+      return popped_node.value
+    print('Stack is empty')
+  
+  def peek(self):
+    """
+    Returns value of node at top of stack.
+    """
+
+    peeked_node = self.top
+    return peeked_node.value
+    # NEED TO RAISE EXCEPTION IF STACK IS EMPTY
+  
+  def isEmpty(self):
+    """
+    Returns True if stack is empty, otherwise returns False
+    """
+    
+    if self.top == None:
+      return True
+    else:
+      return False
 
 
 
@@ -57,3 +79,52 @@ class Queue:
     """
     self.front = front
     self.back = back
+
+  def enqueue(self, value):
+    """
+    Creates a node of the value and adds it to the back of the queue.
+    If queue is empty, it will set as front.
+    """
+
+    new_node = Node(value)
+    if self.front is None:
+      self.front = new_node
+      self.back = new_node
+    else:
+      self.back.next = new_node
+      self.back = new_node
+
+  def dequeue(self):
+    """
+    Returns the value of the node at the front of the queue.
+    Removes the node from the queue.
+    Reassigns "front" to next node in queue.
+    Raises an exception if queue is empty.
+    """
+
+    dequeued_node = self.front
+    if dequeued_node.value == None:
+      raise Exception('Stack is empty')
+    else:
+      self.front = dequeued_node.next
+      return dequeued_node.value
+    print('Stack is empty')
+
+  def peek(self):
+    """
+    Returns value of node at front of queue.
+    """
+
+    peeked_node = self.front
+    return peeked_node.value
+    # NEED TO RAISE EXCEPTION IF QUEUE IS EMPTY
+  
+  def isEmpty(self):
+    """
+    Returns True if queue is empty, otherwise returns False
+    """
+    
+    if self.front == None:
+      return True
+    else:
+      return False

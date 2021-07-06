@@ -1,4 +1,3 @@
-import unittest
 from code_challenges.stack_and_queue.stack_and_queue import Node, Stack, Queue
 
 
@@ -42,7 +41,6 @@ def test_empty_stack():
   assert actual == expected
 
 def test_push_to_empty_stack():
-  # README test #1
   empty_stack = Stack()
   empty_stack.push("puppy")
   actual = empty_stack.top.value
@@ -50,7 +48,6 @@ def test_push_to_empty_stack():
   assert actual == expected
 
 def test_push_multiple_nodes_to_stack():
-  # README test #2
   new_stack = Stack()
   new_stack.push("first node")
   new_stack.push("second node")
@@ -69,23 +66,70 @@ def test_push_multiple_nodes_to_stack():
   assert actual_second_push == expected_second_push
   assert actual_last_push == expected_last_push
 
-def test_pop_off_empty_stack():
-  new_stack = Stack()
-  actual = new_stack.pop()
-  expected = 'Stack is empty'
-  assert actual == expected
-
-# def test_pop_off_stack():
+# def test_pop_off_empty_stack():
 #   new_stack = Stack()
-#   new_stack.push("first node")
-#   new_stack.push("second node")
-#   new_stack.push("third node")
-
 #   actual = new_stack.pop()
-#   expected = "third node"
-
+#   expected = 'Stack is empty'
 #   assert actual == expected
 
+def test_pop_off_stack():
+  new_stack = Stack()
+  new_stack.push("first node")
+  new_stack.push("second node")
+  new_stack.push("third node")
+
+  actual = new_stack.pop()
+  expected = "third node"
+
+  assert actual == expected
+
+def test_multiple_pops():
+  new_stack = Stack()
+  new_stack.push("H")
+  new_stack.push("E")
+  new_stack.push("L")
+  new_stack.push("L")
+  new_stack.push("O")
+
+  actual_first_pop = new_stack.pop()
+  actual_second_pop = new_stack.pop()
+  actual_third_pop = new_stack.pop()
+
+  expected_first_pop = "O"
+  expected_second_pop = "L"
+  expected_third_pop = "L"
+
+  assert actual_first_pop == expected_first_pop
+  assert actual_second_pop == expected_second_pop
+  assert actual_third_pop == expected_third_pop
+
+def test_stack_isEmpty():
+  new_stack = Stack()
+  actual = new_stack.isEmpty()
+  expected = True
+  assert actual == expected
+
+def test_stack_is_not_empty():
+  new_stack = Stack()
+  new_stack.push("Hello from the stack!")
+
+  actual = new_stack.isEmpty()
+  expected = True
+  assert actual != expected
+
+def test_push_then_pop_then_isEmpty():
+  new_stack = Stack()
+  new_stack.push('Howdy!')
+  
+  actual_push = new_stack.top.value
+  expected_push = 'Howdy!'
+  assert actual_push == expected_push
+  actual_pop = new_stack.pop()
+  expected_pop = 'Howdy!'
+  assert actual_pop == expected_pop
+  actual_isEmpty = new_stack.isEmpty()
+  expected_isEmpty = True
+  assert actual_isEmpty == expected_isEmpty
 
 
 ### ----- Queue Tests ----- ###
@@ -102,3 +146,38 @@ def test_empty_queue():
 
   assert actual_front == expected_front
   assert actual_back == expected_back
+
+def test_add_node_to_queue():
+  new_queue = Queue()
+  new_queue.enqueue('kitty')
+
+  actual = new_queue.front.value
+  expected = 'kitty'
+  assert actual == expected
+
+def test_add_multiple_nodes_to_queue():
+  new_queue = Queue()
+  new_queue.enqueue('kitty')
+  new_queue.enqueue('puppy')
+  new_queue.enqueue('fishy')
+  new_queue.enqueue('bunny')
+
+  actual_front = new_queue.front.value
+  expected_front = 'kitty'
+  actual_back = new_queue.back.value
+  expected_back = 'bunny'
+
+  assert actual_front == expected_front
+  assert actual_back == expected_back
+
+def test_remove_node_from_queue():
+  new_queue = Queue()
+  new_queue.enqueue('kitty')
+  new_queue.enqueue('puppy')
+  new_queue.enqueue('fishy')
+  new_queue.enqueue('bunny')
+
+  actual = new_queue.dequeue()
+  expected = 'kitty'
+
+  assert actual == expected
