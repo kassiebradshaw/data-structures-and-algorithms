@@ -24,10 +24,10 @@ Using a `Linked List` as the underlying data storage mechanism, implement both a
 * [x] Create a `Queue` class that has a `front` property. It creates an empty `Queue` when instantiated.
   * [x] This object should be aware of a default *empty value* assigned to `front` when the `queue` is created
   * [ ] The class should contain the following methods:
-    * [ ] Enqueue
-    * [ ] Dequeue
-    * [ ] Peek
-    * [ ] isEmpty
+    * [x] Enqueue
+    * [x] Dequeue
+    * [x] Peek
+    * [x] isEmpty
 
 You have access to the `Node class` and all the properties on the `Linked List class`.
 
@@ -47,14 +47,14 @@ Write tests to prove the following functionality:
 4. [x] Can successfully empty a stack after multiple pops
 5. [x] Can successfully peek the next item on the stack
 6. [x] Can successfully instantiate an empty stack
-7. [ ] Calling pop or peek on empty stack raises exception
-8. [ ] Can successfully enqueue into a queue
-9. [ ] Can successfully enqueue multiple values into a queue
-10. [ ] Can sucessfully dequeue out of a queue the expected value
-11. [ ] Can successfully peek into a queue, seeing the expected value
-12. [ ] Can successfully empty a queue after multiple dequeues
+7. [x] Calling pop or peek on empty stack raises exception
+8. [x] Can successfully enqueue into a queue
+9. [x] Can successfully enqueue multiple values into a queue
+10. [x] Can sucessfully dequeue out of a queue the expected value
+11. [x] Can successfully peek into a queue, seeing the expected value
+12. [x] Can successfully empty a queue after multiple dequeues
 13. [x] Can successfully instantiate an empty queue
-14. [ ] Calling dequeue or peek on empty queue raises exception
+14. [x] Calling dequeue or peek on empty queue raises exception
 
 ---
 
@@ -101,3 +101,8 @@ Write tests to prove the following functionality:
 * `.isEmpty()`
   * Arguments: *none*
   * Returns: Boolean indicating whether or not the queue is empty
+
+## Collaboration & Credit
+
+* Thanks Ben Hill for help with raising/testing exceptions!
+* Thanks Anthony Beaver for help making a fixture!
