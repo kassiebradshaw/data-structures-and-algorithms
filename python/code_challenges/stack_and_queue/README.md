@@ -15,7 +15,7 @@ Using a `Linked List` as the underlying data storage mechanism, implement both a
 * [x] Create a `Stack` class that has a `top` property. It creates an empty `Stack` when instantiated.
 
   * [x] This object should be aware of a default *empty value* assigned to `top` when the `stack` is created
-  * [ ] The class should contain the following methods:
+  * [x] The class should contain the following methods:
     * [x] Push
     * [x] Pop
     * [x] Peek
@@ -23,7 +23,7 @@ Using a `Linked List` as the underlying data storage mechanism, implement both a
 
 * [x] Create a `Queue` class that has a `front` property. It creates an empty `Queue` when instantiated.
   * [x] This object should be aware of a default *empty value* assigned to `front` when the `queue` is created
-  * [ ] The class should contain the following methods:
+  * [x] The class should contain the following methods:
     * [x] Enqueue
     * [x] Dequeue
     * [x] Peek
@@ -50,7 +50,7 @@ Write tests to prove the following functionality:
 7. [x] Calling pop or peek on empty stack raises exception
 8. [x] Can successfully enqueue into a queue
 9. [x] Can successfully enqueue multiple values into a queue
-10. [x] Can sucessfully dequeue out of a queue the expected value
+10. [x] Can successfully dequeue out of a queue the expected value
 11. [x] Can successfully peek into a queue, seeing the expected value
 12. [x] Can successfully empty a queue after multiple dequeues
 13. [x] Can successfully instantiate an empty queue
