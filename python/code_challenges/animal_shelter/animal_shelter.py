@@ -14,10 +14,12 @@ class AnimalShelter:
     self.last_animal = last
     self.animal_count = 0
 
-  def enqueue(self, animal):
+  def enqueue(self, animal=None):
     """Creates an "animal" object (dog or cat)
     Adds it to the back of the shelter's "waiting list"
     If list is empty, it will set it as the first animal in the list"""
+    if animal != "dog" or animal != "cat":
+      raise CustomError("Must enter 'dog' or 'cat'")
 
     new_animal = Node(animal) # creates new animal object
 
