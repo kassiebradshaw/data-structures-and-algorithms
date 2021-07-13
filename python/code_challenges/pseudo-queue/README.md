@@ -8,7 +8,7 @@ Author: *Kassie Bradshaw*
 
 ## Problem Domain
 
-**Implement a Queue using two Stacks**
+**Implement a Queue using two Stacks**:
 
 * [ ] Create a new class called pseudo queue
   * [ ] Do not use an existing queue
