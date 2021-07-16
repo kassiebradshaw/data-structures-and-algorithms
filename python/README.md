@@ -26,3 +26,9 @@
 - [Challenge 5 - Linked List](python/code_challenges/linked_list/README.md)
 - [Challenge 6 - Linked List insertions](python/code_challenges/linked_list/README.md)
 - [Challenge 7 - kth From End](python/code_challenges/linked_list/README.md)
+- [Challenge 8 - Zip Two Linked Lists](python/code_challenges/linked_list/README.md)
+- Challenge 9 - Whiteboard Interview with Davee Sok
+- [Challenge 10 - Stack and Queue](python/code_challenges/stack_and_queue/README.md)
+- [Challenge 11 - Pseudo Queue](python/code_challenges/pseudo-queue/README.md)
+- [Challenge 12 - Animal Shelter](python/code_challenges/animal_shelter/README.md)
+- [Challenge 13 - Bracket Validation](python/code_challenges/stack_queue_brackets/README.md)
