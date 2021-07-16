@@ -31,3 +31,4 @@
 - [Challenge 10 - Stack and Queue](python/code_challenges/stack_and_queue/README.md)
 - [Challenge 11 - Pseudo Queue](python/code_challenges/pseudo-queue/README.md)
 - [Challenge 12 - Animal Shelter](python/code_challenges/animal_shelter/README.md)
+- [Challenge 13 - Validate Brackets](python/code_challenges/stack_queue_brackets/README.md)
