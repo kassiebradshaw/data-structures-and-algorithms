@@ -2,6 +2,8 @@
 
 ## Challenge Type: Code Challenge / Algorithm
 
+[Link to Code](stack_queue_brackets.py)
+
 [Link to Pull Request](https://github.com/kassiebradshaw/data-structures-and-algorithms/pull/34)
 
 [Credit for solution](https://www.geeksforgeeks.org/check-for-balanced-parentheses-in-an-expression/)

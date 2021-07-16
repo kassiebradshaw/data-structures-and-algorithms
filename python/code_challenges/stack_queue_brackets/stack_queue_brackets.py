@@ -1,5 +1,3 @@
-import pytest
-
 def validate_brackets(string):
   stack = []
   
