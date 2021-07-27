@@ -86,6 +86,11 @@ def test_empty_tree_max_val(empty_tree):
   expected = "Tree is empty"
   assert actual == expected
 
+def test_negative_tree_max_val(negative_tree):
+  actual = negative_tree.max_value()
+  expected = -2
+  assert actual == expected
+
 # --- My Binary Search Tree Tests --- #
 
 def test_add_node_to_empty_BST():
@@ -166,6 +171,21 @@ def example_tree():
   tree.root.right = Node(5)
   tree.root.right.right = Node(9)
   tree.root.right.right.left = Node(4)
+  return tree
+
+@pytest.fixture
+def negative_tree():
+  # testing a tree with all negative numbers
+  tree = BinaryTree()
+  tree.root = Node(-2)
+  tree.root.left = Node(-7)
+  tree.root.left.left = Node(-2)
+  tree.root.left.right = Node(-6)
+  tree.root.left.right.left = Node(-5)
+  tree.root.left.right.right = Node(-11)
+  tree.root.right = Node(-5)
+  tree.root.right.right = Node(-9)
+  tree.root.right.right.left = Node(-4)
   return tree
 
 @pytest.fixture
