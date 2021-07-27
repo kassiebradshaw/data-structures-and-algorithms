@@ -64,6 +64,28 @@ def test_post_order(fruit_tree):
   expected = ["Date", "Elderberry", "Banana", "Fig", "Grape", "Coconut", "Apple"]
   assert actual == expected
 
+# --- TESTS FOR Code Challenge 16 --- #
+
+def test_max_value(number_tree):
+  actual = number_tree.max_value()
+  expected = 80
+  assert actual == expected
+
+def test_max_value_incorrect(number_tree):
+  actual = number_tree.max_value()
+  expected = 75
+  assert actual != expected
+
+def test_example_tree_max_val(example_tree):
+  actual = example_tree.max_value()
+  expected = 11
+  assert actual == expected
+
+def test_empty_tree_max_val(empty_tree):
+  actual = empty_tree.max_value()
+  expected = "Tree is empty"
+  assert actual == expected
+
 # --- My Binary Search Tree Tests --- #
 
 def test_add_node_to_empty_BST():
@@ -118,6 +140,33 @@ def test_contains_method_returns_false():
 def empty_tree():
   empty_tree = BinaryTree()
   return empty_tree
+
+@pytest.fixture
+def number_tree():
+  tree = BinaryTree()
+  tree.root = Node(50)
+  tree.root.left = Node(25)
+  tree.root.left.left = Node(15)
+  tree.root.left.right = Node(30)
+  tree.root.right = Node(75)
+  tree.root.right.left = Node(60)
+  tree.root.right.right = Node(80)
+  return tree
+
+@pytest.fixture
+def example_tree():
+  # the tree we were given in the instructions
+  tree = BinaryTree()
+  tree.root = Node(2)
+  tree.root.left = Node(7)
+  tree.root.left.left = Node(2)
+  tree.root.left.right = Node(6)
+  tree.root.left.right.left = Node(5)
+  tree.root.left.right.right = Node(11)
+  tree.root.right = Node(5)
+  tree.root.right.right = Node(9)
+  tree.root.right.right.left = Node(4)
+  return tree
 
 @pytest.fixture
 def fruit_tree():

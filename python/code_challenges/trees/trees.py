@@ -95,6 +95,22 @@ class BinaryTree:
 
 # -----------------------------------------------#
 
+  def max_value(self):
+
+    if self.root is None:
+      return "Tree is empty"
+    
+    value_list = self.preOrder()
+    max_val = value_list[0]
+
+    for i in value_list:
+      if i > max_val:
+        max_val = i
+    
+    return max_val
+
+# -----------------------------------------------#
+
 class BinarySearchTree(BinaryTree):
   """ Sub-class of the Binary Tree class """
   

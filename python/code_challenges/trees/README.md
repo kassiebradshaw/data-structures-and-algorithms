@@ -50,3 +50,5 @@ Write tests to prove the following functionality:
 ## Collaboration & Credit
 
 * [Used the starter tests from the 401 class repo](https://github.com/codefellows/seattle-code-python-401n3/blob/main/class-15/demo/test_tree.py)
+
+* Credit to Wondwosen and Michael Hendricks for their Binary Search Tree "contains" methods

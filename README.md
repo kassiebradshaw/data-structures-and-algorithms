@@ -34,3 +34,4 @@
 - [Challenge 13 - Validate Brackets](python/code_challenges/stack_queue_brackets/README.md)
 - [Challenge 14 - Mock Interview with Garfield Grant]
 - [Challenge 15 - Binary Tree and BST Implementation](python/code_challenges/trees/README.md)
+- [Challenge 16 - Binary Tree Max Value](python/code_challenges/trees/README-max.md)
