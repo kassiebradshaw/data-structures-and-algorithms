@@ -112,7 +112,6 @@ class BinarySearchTree(BinaryTree):
         
     new_node = Node(value)
 
-
     if self.root is None:
       self.root = new_node
       
@@ -153,4 +152,43 @@ class BinarySearchTree(BinaryTree):
         return False
     
     # return False
+
+    # --- Wondwosen's demo --- #
+
+    # def contains(self, target):
+
+    #   if self.root is None:
+    #     return None
+
+    #   current = self.root
+
+    #   while current:
+    #     if current.value == target:
+    #       return True
+    #     if target > current.value:
+    #       current = current.right
+    #     else:
+    #       current = current.left
+        
+    #   return False
+
+# --- Michael Hendricks' demo --- #
+
+  # def contains(self, value):
+
+  #   if self.root == value:
+  #     return True
+    
+  #   if self.root > value:
+  #     if self.left:
+  #       return self.left.contains(value)
+  #     else:
+  #       return False
+      
+  #   else:
+  #     if self.right:
+  #       return self.right.contains(value)
+  #     else:
+  #       return False
+    
 
