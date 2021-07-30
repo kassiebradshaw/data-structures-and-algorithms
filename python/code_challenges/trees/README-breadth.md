@@ -25,3 +25,5 @@
 * test_breadth_first_negative_tree
 * test_breadth_first_fruit_tree
 * test_breadth_first_number_tree
+* test_breadth_first_on_empty_tree
+* test_breadth_first_expected_failure
