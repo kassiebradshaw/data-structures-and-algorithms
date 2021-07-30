@@ -32,3 +32,7 @@
 - [Challenge 11 - Pseudo Queue](python/code_challenges/pseudo-queue/README.md)
 - [Challenge 12 - Animal Shelter](python/code_challenges/animal_shelter/README.md)
 - [Challenge 13 - Bracket Validation](python/code_challenges/stack_queue_brackets/README.md)
+- [Challenge 14 - Mock Interview with Garfield Grant]
+- [Challenge 15 - Binary Tree and BST Implementation](python/code_challenges/trees/README.md)
+- [Challenge 16 - Binary Tree Max Value](python/code_challenges/trees/README-max.md)
+- [Challenge 17 - Binary Tree Breadth-First Traversal](python/code_challenges/trees/README-breadth.md)
