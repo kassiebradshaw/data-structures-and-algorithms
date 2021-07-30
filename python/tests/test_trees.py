@@ -113,6 +113,16 @@ def test_breadth_first_number_tree(number_tree):
   expected = [50,25,75,15,30,60,80]
   assert actual == expected
 
+def test_breadth_first_on_empty_tree(empty_tree):
+  actual = empty_tree.breadth_first()
+  expected = "Tree is empty"
+  assert actual == expected
+
+def test_breadth_first_expected_failure(example_tree):
+  actual = example_tree.breadth_first()
+  expected = "Tree is empty"
+  assert actual != expected
+
 # --- My Binary Search Tree Tests --- #
 
 def test_add_node_to_empty_BST():
