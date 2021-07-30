@@ -1,18 +1,18 @@
 import pytest
-from code_challenges.trees.trees import Node, BinaryTree, BinarySearchTree
+from code_challenges.trees.trees import BTNode, BinaryTree, BinarySearchTree
 
 # tests from 401 repo
 
 def test_node_has_value():
-  node = Node("apple")
+  node = BTNode("apple")
   assert node.value == "apple"
 
 def test_node_has_left_of_none():
-  node = Node("apple")
+  node = BTNode("apple")
   assert node.left is None
 
 def test_node_has_right_of_none():
-  node = Node("apple")
+  node = BTNode("apple")
   assert node.right is None
 
 def test_create_binary_tree():
@@ -91,6 +91,28 @@ def test_negative_tree_max_val(negative_tree):
   expected = -2
   assert actual == expected
 
+# --- TESTS FOR Code Challenge 17 --- #
+
+def test_breadth_first_example_tree(example_tree):
+  actual = example_tree.breadth_first()
+  expected = [2,7,5,2,6,9,5,11,4]
+  assert actual == expected
+
+def test_breadth_first_negative_tree(negative_tree):
+  actual = negative_tree.breadth_first()
+  expected = [-2,-7,-5,-2,-6,-9, -5,-11,-4]
+  assert actual == expected
+
+def test_breadth_first_fruit_tree(fruit_tree):
+  actual = fruit_tree.breadth_first()
+  expected = ["Apple","Banana","Coconut","Date","Elderberry","Fig","Grape"]
+  assert actual == expected
+
+def test_breadth_first_number_tree(number_tree):
+  actual = number_tree.breadth_first()
+  expected = [50,25,75,15,30,60,80]
+  assert actual == expected
+
 # --- My Binary Search Tree Tests --- #
 
 def test_add_node_to_empty_BST():
@@ -149,53 +171,53 @@ def empty_tree():
 @pytest.fixture
 def number_tree():
   tree = BinaryTree()
-  tree.root = Node(50)
-  tree.root.left = Node(25)
-  tree.root.left.left = Node(15)
-  tree.root.left.right = Node(30)
-  tree.root.right = Node(75)
-  tree.root.right.left = Node(60)
-  tree.root.right.right = Node(80)
+  tree.root = BTNode(50)
+  tree.root.left = BTNode(25)
+  tree.root.left.left = BTNode(15)
+  tree.root.left.right = BTNode(30)
+  tree.root.right = BTNode(75)
+  tree.root.right.left = BTNode(60)
+  tree.root.right.right = BTNode(80)
   return tree
 
 @pytest.fixture
 def example_tree():
   # the tree we were given in the instructions
   tree = BinaryTree()
-  tree.root = Node(2)
-  tree.root.left = Node(7)
-  tree.root.left.left = Node(2)
-  tree.root.left.right = Node(6)
-  tree.root.left.right.left = Node(5)
-  tree.root.left.right.right = Node(11)
-  tree.root.right = Node(5)
-  tree.root.right.right = Node(9)
-  tree.root.right.right.left = Node(4)
+  tree.root = BTNode(2)
+  tree.root.left = BTNode(7)
+  tree.root.left.left = BTNode(2)
+  tree.root.left.right = BTNode(6)
+  tree.root.left.right.left = BTNode(5)
+  tree.root.left.right.right = BTNode(11)
+  tree.root.right = BTNode(5)
+  tree.root.right.right = BTNode(9)
+  tree.root.right.right.left = BTNode(4)
   return tree
 
 @pytest.fixture
 def negative_tree():
   # testing a tree with all negative numbers
   tree = BinaryTree()
-  tree.root = Node(-2)
-  tree.root.left = Node(-7)
-  tree.root.left.left = Node(-2)
-  tree.root.left.right = Node(-6)
-  tree.root.left.right.left = Node(-5)
-  tree.root.left.right.right = Node(-11)
-  tree.root.right = Node(-5)
-  tree.root.right.right = Node(-9)
-  tree.root.right.right.left = Node(-4)
+  tree.root = BTNode(-2)
+  tree.root.left = BTNode(-7)
+  tree.root.left.left = BTNode(-2)
+  tree.root.left.right = BTNode(-6)
+  tree.root.left.right.left = BTNode(-5)
+  tree.root.left.right.right = BTNode(-11)
+  tree.root.right = BTNode(-5)
+  tree.root.right.right = BTNode(-9)
+  tree.root.right.right.left = BTNode(-4)
   return tree
 
 @pytest.fixture
 def fruit_tree():
   tree = BinaryTree()
-  tree.root = Node("Apple")
-  tree.root.left = Node("Banana")
-  tree.root.left.left = Node("Date")
-  tree.root.left.right = Node("Elderberry")
-  tree.root.right = Node("Coconut")
-  tree.root.right.left = Node("Fig")
-  tree.root.right.right = Node("Grape")
+  tree.root = BTNode("Apple")
+  tree.root.left = BTNode("Banana")
+  tree.root.left.left = BTNode("Date")
+  tree.root.left.right = BTNode("Elderberry")
+  tree.root.right = BTNode("Coconut")
+  tree.root.right.left = BTNode("Fig")
+  tree.root.right.right = BTNode("Grape")
   return tree

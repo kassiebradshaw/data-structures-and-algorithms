@@ -1,4 +1,6 @@
-class Node:
+from code_challenges.stack_and_queue.stack_and_queue import Queue, Node
+
+class BTNode:
 
   def __init__(self, value, left=None, right=None):
     """Creates a node instance with a value, a left and a right"""
@@ -93,6 +95,32 @@ class BinaryTree:
 
     return order
 
+# --- breadth-first traversal method --- #
+
+  def breadth_first(self):
+    """ Traverses the Binary Tree breadth-first """
+    # input <-- root node
+    # output <-- breadth-first output of tree node's values
+    root = self.root
+
+    if root is None:
+      return "Tree is empty"
+
+    else:
+      order = []
+      queue = Queue()
+      queue.enqueue(root)
+
+      while not queue.isEmpty():
+        front = queue.dequeue()
+        order.append(front.value)
+        if front.left:
+          queue.enqueue(front.left)
+        if front.right:
+          queue.enqueue(front.right)
+      
+    return order
+
 # -----------------------------------------------#
 
   def max_value(self):
@@ -126,7 +154,7 @@ class BinarySearchTree(BinaryTree):
     if value is None or type(value) == str:
       return "Node must contain a number"
         
-    new_node = Node(value)
+    new_node = BTNode(value)
 
     if self.root is None:
       self.root = new_node
