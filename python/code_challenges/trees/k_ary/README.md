@@ -1,6 +1,6 @@
 # Code Challenge 18 - Fizz Buzz K-ary Tree
 
-[Link to Pull Request]()
+[Link to Pull Request](https://github.com/kassiebradshaw/data-structures-and-algorithms/pull/39)
 
 [Link to my code](k_ary.py)
 
