@@ -1,4 +1,4 @@
-def InsertionSort(list):
+def insertion_sort(list):
     if len(list) <2:
         return 'List must not be empty. List must have more than 1 value to sort.'
     
