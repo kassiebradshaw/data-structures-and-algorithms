@@ -35,3 +35,5 @@
 - [Challenge 14 - Mock Interview with Garfield Grant]
 - [Challenge 15 - Binary Tree and BST Implementation](python/code_challenges/trees/README.md)
 - [Challenge 16 - Binary Tree Max Value](python/code_challenges/trees/README-max.md)
+- [Challenge 17 - Breadth-First Traversal](python/code_challenges/trees/README-breadth.md)
+- [Challenge 18 - Fizz Buzz K-ary Tree](python/code_challenges/trees/k_ary/README.md)
