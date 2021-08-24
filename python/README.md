@@ -1,38 +1,23 @@
-# Data Structures and Algorithms
+# 401 PYTHON Data Structures, Code Challenges
 
-## 301 Code Challenges
-
-- [Challenge 01 - forEach](code-challenges/challenges-01.test.js)
-- [Challenge 02 - Map](code-challenges/challenges-02.test.js)
-- [Challenge 03 - Filter](code-challenges/challenges-03.test.js)
-- [Challenge 04 - Sort](code-challenges/challenges-04.test.js)
-- [Challenge 05 - Reduce](code-challenges/challenges-05.test.js)
-- [Challenge 06 - Value vs. Reference](code-challenges/challenges-06.test.js)
-- [Challenge 07 - Array & String Methods](code-challenges/challenges-07.test.js)
-- [Challenge 08 - Regular Expressions, Pt 1](code-challenges/challenges-08.test.js)
-- [Challenge 09 - Object.keys/values/entries](code-challenges/challenges-09.test.js)
-- [Challenge 10 - Two-dimensional arrays](code-challenges/challenges-10.test.js)
-- [Challenge 11 - Chaining Methods](code-challenges/challenges-11.test.js)
-- [Challenge 12 - Regular Expressions, Pt 2](code-challenges/challenges-12.test.js)
-- [Challenge 13 - Includes, Every, Substring, charAt](code-challenges/challenges-13.test.js)
-- [Challenge 14 - Review](code-challenges/challenges-14.test.js)
-
-## 401 Data Structures, Code Challenges
-
-- [Challenge 1 - Reverse an Array](python/code_challenges/array_reverse/README.md)
-- [Challenge 2 - Shift an Array](python/code_challenges/array_shift/README.md)
-- [Challenge 3 - Binary Search of Sorted Array](python/code_challenges/array_binary_search/README.md)
-- Challenge 4 - Peer Practice Whiteboard Challenge
-- [Challenge 5 - Linked List](python/code_challenges/linked_list/README.md)
-- [Challenge 6 - Linked List insertions](python/code_challenges/linked_list/README.md)
-- [Challenge 7 - kth From End](python/code_challenges/linked_list/README.md)
-- [Challenge 8 - Zip Two Linked Lists](python/code_challenges/linked_list/README.md)
+- [Challenge 1 - Reverse an Array](code_challenges/array_reverse/README.md)
+- [Challenge 2 - Shift an Array](code_challenges/array_shift/README.md)
+- [Challenge 3 - Binary Search of Sorted Array](code_challenges/array_binary_search/README.md)
+- Challenge 4 - Whiteboard Interview with Lauren Sierra
+- [Challenge 5 - Linked List](code_challenges/linked_list/README.md)
+- [Challenge 6 - Linked List insertions](code_challenges/linked_list/README.md)
+- [Challenge 7 - kth From End](code_challenges/linked_list/README.md)
+- [Challenge 8 - Zip Two Linked Lists](code_challenges/linked_list/README.md)
 - Challenge 9 - Whiteboard Interview with Davee Sok
 - [Challenge 10 - Stack and Queue](python/code_challenges/stack_and_queue/README.md)
 - [Challenge 11 - Pseudo Queue](python/code_challenges/pseudo-queue/README.md)
-- [Challenge 12 - Animal Shelter](python/code_challenges/animal_shelter/README.md)
-- [Challenge 13 - Bracket Validation](python/code_challenges/stack_queue_brackets/README.md)
-- [Challenge 14 - Mock Interview with Garfield Grant]
-- [Challenge 15 - Binary Tree and BST Implementation](python/code_challenges/trees/README.md)
-- [Challenge 16 - Binary Tree Max Value](python/code_challenges/trees/README-max.md)
-- [Challenge 17 - Binary Tree Breadth-First Traversal](python/code_challenges/trees/README-breadth.md)
+- [Challenge 12 - Animal Shelter](code_challenges/animal_shelter/README.md)
+- [Challenge 13 - Bracket Validation](code_challenges/stack_queue_brackets/README.md)
+- Challenge 14 - Whiteboard Interview with Garfield Grant
+- [Challenge 15 - Binary Tree and BST Implementation](code_challenges/trees/README.md)
+- [Challenge 16 - Binary Tree Max Value](code_challenges/trees/README-max.md)
+- [Challenge 17 - Binary Tree Breadth-First Traversal](code_challenges/trees/README-breadth.md)
+- [Challenge 18 - Fizz Buzz K-ary Tree](code_challenges/trees/k_ary/README.md)
+- Challenge 19 - Whiteboard Interview with Garfield Grant
+- No Challenges 20 - 25 -- Mid Term Projects
+- [Challenge 26 - Insertion Sort](code_challenges/insertion_sort/README.md)

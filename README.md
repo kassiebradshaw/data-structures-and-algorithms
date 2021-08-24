@@ -17,7 +17,7 @@
 - [Challenge 13 - Includes, Every, Substring, charAt](code-challenges/challenges-13.test.js)
 - [Challenge 14 - Review](code-challenges/challenges-14.test.js)
 
-## 401 Data Structures, Code Challenges
+## 401 Python Data Structures & Code Challenges
 
 - [Challenge 1 - Reverse an Array](python/code_challenges/array_reverse/README.md)
 - [Challenge 2 - Shift an Array](python/code_challenges/array_shift/README.md)
@@ -32,8 +32,11 @@
 - [Challenge 11 - Pseudo Queue](python/code_challenges/pseudo-queue/README.md)
 - [Challenge 12 - Animal Shelter](python/code_challenges/animal_shelter/README.md)
 - [Challenge 13 - Validate Brackets](python/code_challenges/stack_queue_brackets/README.md)
-- [Challenge 14 - Mock Interview with Garfield Grant]
+- Challenge 14 - Whiteboard Interview with Garfield Grant
 - [Challenge 15 - Binary Tree and BST Implementation](python/code_challenges/trees/README.md)
 - [Challenge 16 - Binary Tree Max Value](python/code_challenges/trees/README-max.md)
 - [Challenge 17 - Breadth-First Traversal](python/code_challenges/trees/README-breadth.md)
 - [Challenge 18 - Fizz Buzz K-ary Tree](python/code_challenges/trees/k_ary/README.md)
+- Challenge 19 - Whiteboard Interview with Garfield Grant
+- No Challenges 20 - 25 -- Mid Term Projects
+- [Challenge 26 - Insertion Sort](python/code_challenges/insertion_sort/README.md)
