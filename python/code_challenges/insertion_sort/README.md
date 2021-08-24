@@ -1,6 +1,10 @@
 # Code Challenge 26 - Insertion Sort
 
-Link to [Pull Request]()
+[Link to Pull Request](https://github.com/kassiebradshaw/data-structures-and-algorithms/pull/40)
+
+[Link to my code](insertion_sort.py)
+
+[Link to my "blog article"](blog.md)
 
 ## Assignment
 
