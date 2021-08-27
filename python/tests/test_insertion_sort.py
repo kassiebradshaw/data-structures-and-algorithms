@@ -1,5 +1,4 @@
 import pytest
-# from ..code_challenges.insertion_sort.insertion_sort import insertion_sort
 from code_challenges.insertion_sort.insertion_sort import insertion_sort
 
 def test_insertion_sort_happy_path():

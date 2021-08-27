@@ -21,3 +21,4 @@
 - Challenge 19 - Whiteboard Interview with Garfield Grant
 - No Challenges 20 - 25 -- Mid Term Projects
 - [Challenge 26 - Insertion Sort](code_challenges/insertion_sort/README.md)
+- [Challenge 27 - Merge Sort](code_challenges/insertion_sort/README.md)
